@@ -1,6 +1,9 @@
-# 🎯 End-to-End ML Project: Titanic Survival Prediction
+# 🎯 End-to-End ML Project: Titanic Survival Prediction - IBM SKILLSBUILD SUMMER INTERNSHIP PROJECT
 
 This project demonstrates a **complete machine learning pipeline** tailored to reflect industry-level Experience in manipulating/transforming data, model selection, model training, and cross-validation.
+
+## My internship completion certificate - 
+![image](https://github.com/user-attachments/assets/4a718209-491a-42cb-908d-62a6ad398ecf)
 
 ---
 
