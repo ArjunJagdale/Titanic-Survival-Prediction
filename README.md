@@ -1,8 +1,6 @@
 # 🎯 End-to-End ML Project: Titanic Survival Prediction
 
-This project demonstrates a **complete machine learning pipeline** tailored to reflect industry-level expectations, specifically targeting the JD requirement:
-
-> **"Experience in manipulating/transforming data, model selection, model training, cross-validation and deployment at scale."**
+This project demonstrates a **complete machine learning pipeline** tailored to reflect industry-level Experience in manipulating/transforming data, model selection, model training, and cross-validation.
 
 ---
 
@@ -79,7 +77,7 @@ A live, interactive UI is included using **Gradio**. It lets you:
 
 ## 📚 Dataset
 
-- [Titanic Survival Dataset – Kaggle](https://www.kaggle.com/c/titanic)
+- [Titanic Survival Dataset](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
 - Cleaned and minimally engineered for structured ML pipelines
 
 ---
