@@ -72,6 +72,7 @@ This demonstrates the complete ML lifecycle from training to deployment.
 * Pandas, NumPy
 * scikit-learn
 * Matplotlib
+* Seaborn
 * Gradio
 * Joblib
 
