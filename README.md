@@ -26,9 +26,8 @@ The model is trained using a **Random Forest classifier** with a full scikit-lea
 
   * Numerical: median imputation + standard scaling
   * Categorical: mode imputation + one-hot encoding
-* Trained a **Random Forest classifier** with balanced class weights
+* Trained a **Logoistic Regression** with balanced class weights
 * Evaluated using **classification metrics and ROC-AUC**
-* Deployed the trained model with **Gradio** for real-time inference
 
 ---
 
@@ -37,32 +36,25 @@ The model is trained using a **Random Forest classifier** with a full scikit-lea
 ### Classification Report
 
 ```
+Classification Report
                  precision    recall  f1-score   support
 
-Did not survive       0.86      0.86      0.86       110
-Survived              0.78      0.78      0.78        68
+Did not survive       0.83      0.83      0.83       110
+       Survived       0.72      0.74      0.73        68
 
-accuracy                                   0.83       178
-macro avg             0.82      0.82      0.82       178
-weighted avg          0.83      0.83      0.83       178
+       accuracy                           0.79       178
+      macro avg       0.78      0.78      0.78       178
+   weighted avg       0.79      0.79      0.79       178
 ```
+## Confusion Matrix
 
-* **Accuracy:** 83%
-* **Macro F1-score:** 0.82 (balanced performance across classes)
+<img width="542" height="412" alt="image" src="https://github.com/user-attachments/assets/8827d73c-c9fd-46a6-8e88-124a70dda255" />
+
+
+* **Accuracy:** 79%
 * **ROC-AUC:** 0.83 (strong class separability)
 
 These results indicate a **robust and well-balanced classifier**, avoiding overfitting and biased predictions.
-
----
-
-## Model Deployment
-
-An interactive **Gradio web interface** is provided where users can input passenger details and receive:
-
-* Survival prediction
-* Survival probability score
-
-This demonstrates the complete ML lifecycle from training to deployment.
 
 ---
 
@@ -73,16 +65,8 @@ This demonstrates the complete ML lifecycle from training to deployment.
 * scikit-learn
 * Matplotlib
 * Seaborn
-* Gradio
-* Joblib
 
 ---
-
-## How to Run
-
-1. Open the notebook in Google Colab
-2. Run all cells sequentially
-3. The Gradio interface will launch at the end for live predictions
 
 ---
 
